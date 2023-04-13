@@ -7,4 +7,4 @@ The eight queens puzzle is the problem of placing eight chess queens on an 8×8 
 
 This java program solves the Eight Queens problem using the backtracking approach. I used a common algorithm design technique called backtracking for solving this problem. The backtracking approach searches for a candidate solution incrementally, abandoning that option as soon as it determines that the candidate cannot possibly be a valid solution, and then looks for a new candidate. You can use a two-dimensional array to represent a chessboard. However, since each row can have only one queen, it is sufficient to use a one-dimensional array to denote the position of the queen in the row. 
 
-![image](https://user-images.githubusercontent.com/24220136/231668699-e992248d-e021-42aa-a8b8-0b8106243eb1.png)
+![image](https://user-images.githubusercontent.com/24220136/231668815-0617c673-1d17-43ff-ac91-654dee9a78b3.png)
