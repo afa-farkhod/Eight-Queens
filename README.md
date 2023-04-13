@@ -19,7 +19,7 @@ The search starts from the first row with k = 0, where k is the index of the cur
  
  After implementing the backtracking algorithm, successful demo:
  
- ![image](https://user-images.githubusercontent.com/24220136/231669144-6d74d2d5-ec23-4f9f-955b-24354235e765.png)
+![image](https://user-images.githubusercontent.com/24220136/231669546-0c014498-2523-449e-9960-573aa53ff02f.png)
 
 The program invokes search() to search for a solution. Initially, no queens are placed in any rows. The search now starts from the first row with k = 0 and finds a place for the queen. If successful, place it in the row and consider the next row. If not successful, backtrack to the previous row. The findPosition(k) method searches for a possible position to place a queen in row
 k starting from queen[k] + 1. It checks whether a queen can be placed at start, start + 1, . . . , and 7, in this order. If possible, return the column index; otherwise, return -1.
