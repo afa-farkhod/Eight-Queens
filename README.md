@@ -1,4 +1,4 @@
-# Eight-Queens
+# [Eight-Queens](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
 Solving the Eight Queens Problem using Backtracking
 
 - The eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other; thus, a solution requires that no two queens share the same row, column, or diagonal. There are 92 solutions. The problem was first posed in the mid-19th century. In the modern era, it is often used as an example problem for various computer programming techniques.
@@ -15,11 +15,9 @@ Solving the Eight Queens Problem using Backtracking
 
 - The search starts from the first row with k = 0, where k is the index of the current row being considered. The algorithm checks whether a queen can be possibly placed in the jth column in the row for j = 0, 1, c , 7, in this order. The search is implemented as follows:
 
- ■ If successful, it continues to search for a placement for a queen in the next row. If the current row is the last row, a solution is found.
- 
- ■ If not successful, it backtracks to the previous row and continues to search for a new placement in the next column in the previous row.
- 
- ■ If the algorithm backtracks to the first row and cannot find a new placement for a queen in this row, no solution can be found.
+  - If successful, it continues to search for a placement for a queen in the next row. If the current row is the last row, a solution is found.
+  - If not successful, it backtracks to the previous row and continues to search for a new placement in the next column in the previous row.
+  - If the algorithm backtracks to the first row and cannot find a new placement for a queen in this row, no solution can be found.
  
 - After implementing the backtracking algorithm, successful demo:
 
